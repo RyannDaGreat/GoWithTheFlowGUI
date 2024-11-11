@@ -5,6 +5,7 @@ pip_import('matplotlib')
 pip_import('numpy')
 pip_import('cv2')
 pip_import('torch')
+pip_import('torchvision')
 pip_import('einops')
 
 import matplotlib.pyplot as plt
