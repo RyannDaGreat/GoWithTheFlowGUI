@@ -1,4 +1,10 @@
 from rp import *
+
+rp.r._pip_import_autoyes=True#Auto install these as needed
+pip_import('matplotlib')
+pip_import('numpy')
+pip_import('cv2')
+
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.widgets import Slider
