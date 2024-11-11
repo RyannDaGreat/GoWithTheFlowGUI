@@ -4,6 +4,8 @@ rp.r._pip_import_autoyes=True#Auto install these as needed
 pip_import('matplotlib')
 pip_import('numpy')
 pip_import('cv2')
+pip_import('torch')
+pip_import('einops')
 
 import matplotlib.pyplot as plt
 import numpy as np
