@@ -427,7 +427,7 @@ if __name__ == "__main__":
     
     output_polygons_file=output_folder+'/'+'polygons.npy'
     
-    polygons=list(map(as_numpy_array,ans))
+    polygons=list(map(as_numpy_array,layer_polygons))
     save_json(list(x.tolist() for x in polygons), output_folder + "/polygons.json")
     save_text_file(prompt,output_folder+'/prompt.txt')
     save_image_jpg(image,output_folder+'/image.jpg')
